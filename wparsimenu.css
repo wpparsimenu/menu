@@ -1,0 +1,146 @@
+#wParsiMenuLF {
+  position:fixed;
+	top:0;
+	left:0;
+	z-index:999999;
+}
+#wParsiMenuLF .wParsiMenuclass {
+	position:absolute;
+	width:300px;
+	height:201px;
+-moz-transition: all .52s linear .2s;
+-o-transition:all .52s linear .2s;
+-webkit-transition: all .52s linear .2s;
+transition: all .52s linear .2s;
+color:#fff; 
+}
+#wParsiMenuLF,#wParsiMenuLF a {
+	color:#FFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	text-shadow:1px 1px 0.5px rgba(0, 0, 0, .4);
+}
+#wParsiMenuLF #wParsiMenuID1 {
+	top:410px;
+}
+#wParsiMenuLF #wParsiMenuID2 {
+	top:290px;
+	
+}
+#wParsiMenuLF #wParsiMenuID3 {
+	top:170px;
+
+}
+#wParsiMenuLF #wParsiMenuID4 {
+	top:50px;
+}
+#wParsiMenuLF .wParsiMenuBox {
+	background:#5D93BD;
+	position:absolute;
+	min-height:200px;
+	height:auto;
+	top:0px;
+	width:269px;
+	right:41px;
+	padding:0;
+	overflow:hidden;
+	/*css3*/
+box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+-moz-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.5);
+-o-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+-khtml-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+-webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); 
+}
+#wParsiMenuLF .wParsiMenuButton {
+	position:absolute;
+	height:167px;
+	top:0px;
+	width:41px;
+	right:0px;
+	padding:0;
+	display:block;
+	cursor:pointer;
+}
+#wParsiMenuLF #b5 
+{	background: url('images/wparsimenu2.png') no-repeat scroll right top;
+}
+#wParsiMenuLF #b4 
+{	background: url('images/wparsimenu1.png') no-repeat scroll right top;
+}
+#wParsiMenuLF #b3 {
+background: url('images/wparsimenu3.png') no-repeat scroll right top;	
+}
+#wParsiMenuLF #b1 {
+background: url('images/wparsimenu4.png') no-repeat scroll right top;	
+}
+#wParsiMenuLF #b2 {
+background: url('images/wparsimenu5.png') no-repeat scroll right top;	
+}
+
+
+#wParsiMenuLF .box-content {
+	display:block;
+	padding:0;
+	margin:15px 9px 7px 50px;
+	width:210px;
+	display:block;
+	overflow:hidden;
+}
+/*==Login==*/
+#wParsiMenuLF td,#wParsiMenuLF th {
+	height:40px;
+	text-align:center;
+	vertical-align:middle;
+	color:#285077;
+}
+#wParsiMenuLF #login-panel .tdInput {
+	width:200px;
+}
+#wParsiMenuLF #wParsiMenuLF .inputText {
+	background:#fff;
+	border:2px #285077 solid;
+	width:180px;
+}
+#wParsiMenuLF .gbButtun {
+	width:167px;
+	height:40px;
+	margin:0;
+	background:#4e7c9f url('images/submit--button.png') no-repeat scroll center center;
+	border:0px transparent none;
+	outline-style:none;
+	color:#000;
+	-moz-transition: all .2s linear .2ms;
+	-o-transition:all .2s linear .2ms;
+	-webkit-transition: all .2s linear .2ms;
+	transition: all .2s linear .2ms;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	line-height:40px;
+	display:inline-block;
+	
+}
+#wParsiMenuLF .gbButtun:hover {
+	background-color:#99CC00;
+	color:#99CC00
+}
+#wParsiMenuLF .gbButtun:active {
+	background-color:#FF6600;
+	background-size:165px 38px;
+	color:#FF6600
+}
+#wParsiMenuLF .gbAvatar{	height:80px;width:80px;background:#FFF}
+#wParsiMenuLF ul {
+		list-style:none;
+		line-height:30px;
+		list-style-position:inside;
+}
+#wParsiMenuLF ul li {
+	height:30px;
+	overflow:hidden;
+	clear:both;
+}
+#wParsiMenuLF ul li:hover {
+list-style-image:url('images/wparsimenuli.png');
+
+}
